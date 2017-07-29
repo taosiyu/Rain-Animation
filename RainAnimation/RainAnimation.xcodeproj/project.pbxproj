@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1833B2331F2B29D80003B5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2321F2B29D80003B5D1 /* AppDelegate.swift */; };
+		1833B2351F2B29D80003B5D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2341F2B29D80003B5D1 /* ViewController.swift */; };
+		1833B2381F2B29D80003B5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833B2361F2B29D80003B5D1 /* Main.storyboard */; };
+		1833B23A1F2B29D80003B5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1833B2391F2B29D80003B5D1 /* Assets.xcassets */; };
+		1833B23D1F2B29D80003B5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833B23B1F2B29D80003B5D1 /* LaunchScreen.storyboard */; };
+		1833B2481F2B29D80003B5D1 /* RainAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2471F2B29D80003B5D1 /* RainAnimationTests.swift */; };
+		1833B2531F2B29D80003B5D1 /* RainAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2521F2B29D80003B5D1 /* RainAnimationUITests.swift */; };
+		1833B2651F2B2CBE0003B5D1 /* 3DBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2641F2B2CBE0003B5D1 /* 3DBlockView.swift */; };
+		1833B2671F2B32300003B5D1 /* ThreeDBlockCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2661F2B32300003B5D1 /* ThreeDBlockCtr.swift */; };
+		1833B26A1F2B52780003B5D1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2691F2B52780003B5D1 /* TableViewController.swift */; };
+		1833B26C1F2B52E00003B5D1 /* RainRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B26B1F2B52E00003B5D1 /* RainRefresher.swift */; };
+		1833B26E1F2B5C8D0003B5D1 /* TopRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B26D1F2B5C8D0003B5D1 /* TopRefreshView.swift */; };
+		1833B2711F2B70130003B5D1 /* TSYCirclePercentageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2701F2B70130003B5D1 /* TSYCirclePercentageVIew.swift */; };
+		1833B2741F2B70360003B5D1 /* TSYSquarePercentageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2731F2B70360003B5D1 /* TSYSquarePercentageVIew.swift */; };
+		1833B2771F2B70820003B5D1 /* TSYCircleLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2761F2B70820003B5D1 /* TSYCircleLoading.swift */; };
+		1833B2791F2B70D30003B5D1 /* RainCircleLoadingCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2781F2B70D30003B5D1 /* RainCircleLoadingCtr.swift */; };
+		1833B27B1F2B70E60003B5D1 /* SquarePercentageCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B27A1F2B70E60003B5D1 /* SquarePercentageCtr.swift */; };
+		1833B27D1F2B71070003B5D1 /* CirclePercentageCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B27C1F2B71070003B5D1 /* CirclePercentageCtr.swift */; };
+		1833B2801F2B7AAE0003B5D1 /* WaterAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B27F1F2B7AAE0003B5D1 /* WaterAnimationView.swift */; };
+		1833B2821F2B86C30003B5D1 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2811F2B86C30003B5D1 /* WaterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1833B2441F2B29D80003B5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1833B2271F2B29D80003B5D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1833B22E1F2B29D80003B5D1;
+			remoteInfo = RainAnimation;
+		};
+		1833B24F1F2B29D80003B5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1833B2271F2B29D80003B5D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1833B22E1F2B29D80003B5D1;
+			remoteInfo = RainAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1833B22F1F2B29D80003B5D1 /* RainAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833B2321F2B29D80003B5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1833B2341F2B29D80003B5D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1833B2371F2B29D80003B5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1833B2391F2B29D80003B5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1833B23C1F2B29D80003B5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1833B23E1F2B29D80003B5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1833B2431F2B29D80003B5D1 /* RainAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833B2471F2B29D80003B5D1 /* RainAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainAnimationTests.swift; sourceTree = "<group>"; };
+		1833B2491F2B29D80003B5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1833B24E1F2B29D80003B5D1 /* RainAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833B2521F2B29D80003B5D1 /* RainAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainAnimationUITests.swift; sourceTree = "<group>"; };
+		1833B2541F2B29D80003B5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1833B2641F2B2CBE0003B5D1 /* 3DBlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3DBlockView.swift; sourceTree = "<group>"; };
+		1833B2661F2B32300003B5D1 /* ThreeDBlockCtr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeDBlockCtr.swift; sourceTree = "<group>"; };
+		1833B2691F2B52780003B5D1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1833B26B1F2B52E00003B5D1 /* RainRefresher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainRefresher.swift; sourceTree = "<group>"; };
+		1833B26D1F2B5C8D0003B5D1 /* TopRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRefreshView.swift; sourceTree = "<group>"; };
+		1833B2701F2B70130003B5D1 /* TSYCirclePercentageVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSYCirclePercentageVIew.swift; sourceTree = "<group>"; };
+		1833B2731F2B70360003B5D1 /* TSYSquarePercentageVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSYSquarePercentageVIew.swift; sourceTree = "<group>"; };
+		1833B2761F2B70820003B5D1 /* TSYCircleLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSYCircleLoading.swift; sourceTree = "<group>"; };
+		1833B2781F2B70D30003B5D1 /* RainCircleLoadingCtr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainCircleLoadingCtr.swift; sourceTree = "<group>"; };
+		1833B27A1F2B70E60003B5D1 /* SquarePercentageCtr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquarePercentageCtr.swift; sourceTree = "<group>"; };
+		1833B27C1F2B71070003B5D1 /* CirclePercentageCtr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePercentageCtr.swift; sourceTree = "<group>"; };
+		1833B27F1F2B7AAE0003B5D1 /* WaterAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterAnimationView.swift; sourceTree = "<group>"; };
+		1833B2811F2B86C30003B5D1 /* WaterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1833B22C1F2B29D80003B5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833B2401F2B29D80003B5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833B24B1F2B29D80003B5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1833B2261F2B29D80003B5D1 = {
+			isa = PBXGroup;
+			children = (
+				1833B2311F2B29D80003B5D1 /* RainAnimation */,
+				1833B2461F2B29D80003B5D1 /* RainAnimationTests */,
+				1833B2511F2B29D80003B5D1 /* RainAnimationUITests */,
+				1833B2301F2B29D80003B5D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1833B2301F2B29D80003B5D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1833B22F1F2B29D80003B5D1 /* RainAnimation.app */,
+				1833B2431F2B29D80003B5D1 /* RainAnimationTests.xctest */,
+				1833B24E1F2B29D80003B5D1 /* RainAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1833B2311F2B29D80003B5D1 /* RainAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1833B2601F2B2C530003B5D1 /* Animations */,
+				1833B2321F2B29D80003B5D1 /* AppDelegate.swift */,
+				1833B2341F2B29D80003B5D1 /* ViewController.swift */,
+				1833B2361F2B29D80003B5D1 /* Main.storyboard */,
+				1833B2391F2B29D80003B5D1 /* Assets.xcassets */,
+				1833B23B1F2B29D80003B5D1 /* LaunchScreen.storyboard */,
+				1833B23E1F2B29D80003B5D1 /* Info.plist */,
+			);
+			path = RainAnimation;
+			sourceTree = "<group>";
+		};
+		1833B2461F2B29D80003B5D1 /* RainAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				1833B2471F2B29D80003B5D1 /* RainAnimationTests.swift */,
+				1833B2491F2B29D80003B5D1 /* Info.plist */,
+			);
+			path = RainAnimationTests;
+			sourceTree = "<group>";
+		};
+		1833B2511F2B29D80003B5D1 /* RainAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1833B2521F2B29D80003B5D1 /* RainAnimationUITests.swift */,
+				1833B2541F2B29D80003B5D1 /* Info.plist */,
+			);
+			path = RainAnimationUITests;
+			sourceTree = "<group>";
+		};
+		1833B2601F2B2C530003B5D1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				1833B27E1F2B7A950003B5D1 /* WaterAnimation */,
+				1833B2751F2B70470003B5D1 /* CircleLoading */,
+				1833B2721F2B70260003B5D1 /* SquarePercentage */,
+				1833B26F1F2B6FFD0003B5D1 /* CirclePercentage */,
+				1833B2681F2B40710003B5D1 /* Refresh */,
+				1833B2631F2B2CAA0003B5D1 /* 3DBlock */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		1833B2631F2B2CAA0003B5D1 /* 3DBlock */ = {
+			isa = PBXGroup;
+			children = (
+				1833B2641F2B2CBE0003B5D1 /* 3DBlockView.swift */,
+				1833B2661F2B32300003B5D1 /* ThreeDBlockCtr.swift */,
+			);
+			path = 3DBlock;
+			sourceTree = "<group>";
+		};
+		1833B2681F2B40710003B5D1 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				1833B2691F2B52780003B5D1 /* TableViewController.swift */,
+				1833B26B1F2B52E00003B5D1 /* RainRefresher.swift */,
+				1833B26D1F2B5C8D0003B5D1 /* TopRefreshView.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		1833B26F1F2B6FFD0003B5D1 /* CirclePercentage */ = {
+			isa = PBXGroup;
+			children = (
+				1833B2701F2B70130003B5D1 /* TSYCirclePercentageVIew.swift */,
+				1833B27C1F2B71070003B5D1 /* CirclePercentageCtr.swift */,
+			);
+			path = CirclePercentage;
+			sourceTree = "<group>";
+		};
+		1833B2721F2B70260003B5D1 /* SquarePercentage */ = {
+			isa = PBXGroup;
+			children = (
+				1833B2731F2B70360003B5D1 /* TSYSquarePercentageVIew.swift */,
+				1833B27A1F2B70E60003B5D1 /* SquarePercentageCtr.swift */,
+			);
+			path = SquarePercentage;
+			sourceTree = "<group>";
+		};
+		1833B2751F2B70470003B5D1 /* CircleLoading */ = {
+			isa = PBXGroup;
+			children = (
+				1833B2761F2B70820003B5D1 /* TSYCircleLoading.swift */,
+				1833B2781F2B70D30003B5D1 /* RainCircleLoadingCtr.swift */,
+			);
+			path = CircleLoading;
+			sourceTree = "<group>";
+		};
+		1833B27E1F2B7A950003B5D1 /* WaterAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1833B27F1F2B7AAE0003B5D1 /* WaterAnimationView.swift */,
+				1833B2811F2B86C30003B5D1 /* WaterViewController.swift */,
+			);
+			path = WaterAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1833B22E1F2B29D80003B5D1 /* RainAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1833B2571F2B29D80003B5D1 /* Build configuration list for PBXNativeTarget "RainAnimation" */;
+			buildPhases = (
+				1833B22B1F2B29D80003B5D1 /* Sources */,
+				1833B22C1F2B29D80003B5D1 /* Frameworks */,
+				1833B22D1F2B29D80003B5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainAnimation;
+			productName = RainAnimation;
+			productReference = 1833B22F1F2B29D80003B5D1 /* RainAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1833B2421F2B29D80003B5D1 /* RainAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1833B25A1F2B29D80003B5D1 /* Build configuration list for PBXNativeTarget "RainAnimationTests" */;
+			buildPhases = (
+				1833B23F1F2B29D80003B5D1 /* Sources */,
+				1833B2401F2B29D80003B5D1 /* Frameworks */,
+				1833B2411F2B29D80003B5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1833B2451F2B29D80003B5D1 /* PBXTargetDependency */,
+			);
+			name = RainAnimationTests;
+			productName = RainAnimationTests;
+			productReference = 1833B2431F2B29D80003B5D1 /* RainAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1833B24D1F2B29D80003B5D1 /* RainAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1833B25D1F2B29D80003B5D1 /* Build configuration list for PBXNativeTarget "RainAnimationUITests" */;
+			buildPhases = (
+				1833B24A1F2B29D80003B5D1 /* Sources */,
+				1833B24B1F2B29D80003B5D1 /* Frameworks */,
+				1833B24C1F2B29D80003B5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1833B2501F2B29D80003B5D1 /* PBXTargetDependency */,
+			);
+			name = RainAnimationUITests;
+			productName = RainAnimationUITests;
+			productReference = 1833B24E1F2B29D80003B5D1 /* RainAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1833B2271F2B29D80003B5D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1833B22E1F2B29D80003B5D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					1833B2421F2B29D80003B5D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1833B22E1F2B29D80003B5D1;
+					};
+					1833B24D1F2B29D80003B5D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1833B22E1F2B29D80003B5D1;
+					};
+				};
+			};
+			buildConfigurationList = 1833B22A1F2B29D80003B5D1 /* Build configuration list for PBXProject "RainAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1833B2261F2B29D80003B5D1;
+			productRefGroup = 1833B2301F2B29D80003B5D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1833B22E1F2B29D80003B5D1 /* RainAnimation */,
+				1833B2421F2B29D80003B5D1 /* RainAnimationTests */,
+				1833B24D1F2B29D80003B5D1 /* RainAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1833B22D1F2B29D80003B5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833B23D1F2B29D80003B5D1 /* LaunchScreen.storyboard in Resources */,
+				1833B23A1F2B29D80003B5D1 /* Assets.xcassets in Resources */,
+				1833B2381F2B29D80003B5D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833B2411F2B29D80003B5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833B24C1F2B29D80003B5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1833B22B1F2B29D80003B5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833B26C1F2B52E00003B5D1 /* RainRefresher.swift in Sources */,
+				1833B2801F2B7AAE0003B5D1 /* WaterAnimationView.swift in Sources */,
+				1833B2821F2B86C30003B5D1 /* WaterViewController.swift in Sources */,
+				1833B2351F2B29D80003B5D1 /* ViewController.swift in Sources */,
+				1833B2331F2B29D80003B5D1 /* AppDelegate.swift in Sources */,
+				1833B2711F2B70130003B5D1 /* TSYCirclePercentageVIew.swift in Sources */,
+				1833B27B1F2B70E60003B5D1 /* SquarePercentageCtr.swift in Sources */,
+				1833B2651F2B2CBE0003B5D1 /* 3DBlockView.swift in Sources */,
+				1833B26A1F2B52780003B5D1 /* TableViewController.swift in Sources */,
+				1833B2741F2B70360003B5D1 /* TSYSquarePercentageVIew.swift in Sources */,
+				1833B2771F2B70820003B5D1 /* TSYCircleLoading.swift in Sources */,
+				1833B26E1F2B5C8D0003B5D1 /* TopRefreshView.swift in Sources */,
+				1833B2671F2B32300003B5D1 /* ThreeDBlockCtr.swift in Sources */,
+				1833B2791F2B70D30003B5D1 /* RainCircleLoadingCtr.swift in Sources */,
+				1833B27D1F2B71070003B5D1 /* CirclePercentageCtr.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833B23F1F2B29D80003B5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833B2481F2B29D80003B5D1 /* RainAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833B24A1F2B29D80003B5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833B2531F2B29D80003B5D1 /* RainAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1833B2451F2B29D80003B5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1833B22E1F2B29D80003B5D1 /* RainAnimation */;
+			targetProxy = 1833B2441F2B29D80003B5D1 /* PBXContainerItemProxy */;
+		};
+		1833B2501F2B29D80003B5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1833B22E1F2B29D80003B5D1 /* RainAnimation */;
+			targetProxy = 1833B24F1F2B29D80003B5D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1833B2361F2B29D80003B5D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1833B2371F2B29D80003B5D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1833B23B1F2B29D80003B5D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1833B23C1F2B29D80003B5D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1833B2551F2B29D80003B5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1833B2561F2B29D80003B5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1833B2581F2B29D80003B5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RainAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taosiyu.RainAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1833B2591F2B29D80003B5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RainAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taosiyu.RainAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1833B25B1F2B29D80003B5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RainAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taosiyu.RainAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainAnimation.app/RainAnimation";
+			};
+			name = Debug;
+		};
+		1833B25C1F2B29D80003B5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RainAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taosiyu.RainAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainAnimation.app/RainAnimation";
+			};
+			name = Release;
+		};
+		1833B25E1F2B29D80003B5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RainAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taosiyu.RainAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RainAnimation;
+			};
+			name = Debug;
+		};
+		1833B25F1F2B29D80003B5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RainAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taosiyu.RainAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RainAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1833B22A1F2B29D80003B5D1 /* Build configuration list for PBXProject "RainAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833B2551F2B29D80003B5D1 /* Debug */,
+				1833B2561F2B29D80003B5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1833B2571F2B29D80003B5D1 /* Build configuration list for PBXNativeTarget "RainAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833B2581F2B29D80003B5D1 /* Debug */,
+				1833B2591F2B29D80003B5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1833B25A1F2B29D80003B5D1 /* Build configuration list for PBXNativeTarget "RainAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833B25B1F2B29D80003B5D1 /* Debug */,
+				1833B25C1F2B29D80003B5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1833B25D1F2B29D80003B5D1 /* Build configuration list for PBXNativeTarget "RainAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833B25E1F2B29D80003B5D1 /* Debug */,
+				1833B25F1F2B29D80003B5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1833B2271F2B29D80003B5D1 /* Project object */;
+}
