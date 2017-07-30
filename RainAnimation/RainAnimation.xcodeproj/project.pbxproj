@@ -27,6 +27,7 @@
 		1833B27D1F2B71070003B5D1 /* CirclePercentageCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B27C1F2B71070003B5D1 /* CirclePercentageCtr.swift */; };
 		1833B2801F2B7AAE0003B5D1 /* WaterAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B27F1F2B7AAE0003B5D1 /* WaterAnimationView.swift */; };
 		1833B2821F2B86C30003B5D1 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833B2811F2B86C30003B5D1 /* WaterViewController.swift */; };
+		18474F981F2E1714008FE0E0 /* EmitterCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18474F971F2E1714008FE0E0 /* EmitterCtr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		1833B27C1F2B71070003B5D1 /* CirclePercentageCtr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePercentageCtr.swift; sourceTree = "<group>"; };
 		1833B27F1F2B7AAE0003B5D1 /* WaterAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterAnimationView.swift; sourceTree = "<group>"; };
 		1833B2811F2B86C30003B5D1 /* WaterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
+		18474F971F2E1714008FE0E0 /* EmitterCtr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterCtr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		1833B2601F2B2C530003B5D1 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				18474F961F2E16BF008FE0E0 /* Emitter */,
 				1833B27E1F2B7A950003B5D1 /* WaterAnimation */,
 				1833B2751F2B70470003B5D1 /* CircleLoading */,
 				1833B2721F2B70260003B5D1 /* SquarePercentage */,
@@ -218,6 +221,14 @@
 				1833B2811F2B86C30003B5D1 /* WaterViewController.swift */,
 			);
 			path = WaterAnimation;
+			sourceTree = "<group>";
+		};
+		18474F961F2E16BF008FE0E0 /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				18474F971F2E1714008FE0E0 /* EmitterCtr.swift */,
+			);
+			path = Emitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +379,7 @@
 				1833B26E1F2B5C8D0003B5D1 /* TopRefreshView.swift in Sources */,
 				1833B2671F2B32300003B5D1 /* ThreeDBlockCtr.swift in Sources */,
 				1833B2791F2B70D30003B5D1 /* RainCircleLoadingCtr.swift in Sources */,
+				18474F981F2E1714008FE0E0 /* EmitterCtr.swift in Sources */,
 				1833B27D1F2B71070003B5D1 /* CirclePercentageCtr.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +625,7 @@
 				1833B2591F2B29D80003B5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1833B25A1F2B29D80003B5D1 /* Build configuration list for PBXNativeTarget "RainAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -621,6 +634,7 @@
 				1833B25C1F2B29D80003B5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1833B25D1F2B29D80003B5D1 /* Build configuration list for PBXNativeTarget "RainAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -629,6 +643,7 @@
 				1833B25F1F2B29D80003B5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

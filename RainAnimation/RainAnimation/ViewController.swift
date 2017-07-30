@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    fileprivate let titles = ["3DBlock","下拉刷新动画","比例图动画","柱状图","加载动画","水状动画"]
+    fileprivate let titles = ["3DBlock","下拉刷新动画","比例图动画","柱状图","加载动画","水状动画","🌰特效"]
     
     private var myTableView:UITableView = {
         let vc = UITableView.init()
@@ -76,6 +76,8 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
             self.pushCtr(ctr: RainCircleLoadingCtr())
         }else if indexPath.row == 5 {
             self.pushCtr(ctr: WaterViewController())
+        }else if indexPath.row == 6 {
+            self.pushCtr(ctr: EmitterCtr())
         }
         
         
